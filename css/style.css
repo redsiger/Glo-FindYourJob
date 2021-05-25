@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Fira Sans, sans-serif;
+    font-size: 16px;
+    color: #111238;
+}
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+}
+.menu-link {
+    text-decoration: none;
+    color: #111238;
+}
+.menu-item:not(:last-child) {
+    margin-right: 20px;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+}
+.button-link {
+    color: #111238;
+    margin-right: 30px;
+    padding: 10px;
+}
+.button-primary {
+    background-color: #1A75E8;
+    color: white;
+    padding: 15px 30px 15px 30px;
+    border-radius: 5px;
+}
+/*.header {
+    margin-top: 44px;
+}*/
